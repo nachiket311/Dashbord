@@ -4,7 +4,7 @@ A modern and responsive Dashboard UI clone built using **Vite**, **React**, and 
 
 ## Live Demo
 
-**Deploying soon...**
+[Click here to view it live](https://nacs-dashbord.netlify.app/) 
 
 ## Tech Stack
 
@@ -16,7 +16,7 @@ A modern and responsive Dashboard UI clone built using **Vite**, **React**, and 
 ## Installation (Run Locally)
 
 ```bash
-git clone **Add Link Here Soon**
-cd dashboard-clone
+git clone https://github.com/nachiket311/Dashbord.git
+cd Dashbord
 npm install
 npm run dev
