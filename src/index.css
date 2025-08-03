@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.animate-bubble {
+  animation: bubble 0.5s ease-out forwards;
+}
+
+@keyframes query1 {
+  0% {
+    left: 100%;
+    width: 100%;
+  }
+  60% {
+    left: 100%;
+    width: 100%;
+  }
+  100% {
+    left: -35%;
+    width: 35%;
+  }
+}
+
+@keyframes query2 {
+  0% {
+    left: -35%;
+    width: 35%;
+  }
+  60% {
+    left: 100%;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 100%;
+  }
+}
+
+.animate-query1 {
+  animation: query1 2s infinite ease-out;
+}
+
+.animate-query2 {
+  animation: query2 2s infinite ease-out;
+}
